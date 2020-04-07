@@ -11,11 +11,11 @@
 
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
 
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
+
   <a href="https://github.com/kaiorr/aceleraDevReact/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/kaiorr/aceleraDevReact?style=social">
   </a>
-  
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
 </p>
 
 ## :zap: Sobre o Programa de Aceleração
