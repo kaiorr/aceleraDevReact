@@ -1,19 +1,22 @@
-<h1 align="center">
+<p align="center">
   <img alt="aceleradevreact" title="aceleradevreact" src="logo.svg" />
-</h1>
+</p>
 
 <h3 align="center">
 :computer: :running:  Acelera Dev React  :love_letter:
 </h3>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+  <img alt="GitHub" src="https://img.shields.io/github/license/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
+
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
 
   <a href="https://github.com/kaiorr/aceleraDevReact/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/kaiorr/aceleraDevReact?style=social">
   </a>
+  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
 </p>
-
 
 ## :zap: Sobre o Programa de Aceleração
 
@@ -29,3 +32,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://raw.gith
 ----
 
 Feito com :heart: por **Kaio Ribeiro** :call_me_hand: [Professional-Network](https://www.linkedin.com/in/kaio-ribeiro-310123150/)
+
+
