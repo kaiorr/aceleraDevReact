@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "email": "kaio.rocharibeiro@gmail.com",
+    "name": "Kaio Rocha Ribeiro",
+    "url": "http://github.com/kaiorr/aceleraDevReact"
+  },
   "license": "ISC"
 }
