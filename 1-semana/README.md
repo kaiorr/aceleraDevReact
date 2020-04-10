@@ -44,6 +44,10 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 * 📜 [Guia HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf);
 * 📜 [Guia CSS3](https://www.w3c.br/pub/Materiais/PublicacoesW3C/guia-css-w3cbr.pdf).
 
+## Como Desafio pessoal fiz uma implementação
+
+Implementei o switch theme utilizando somente javascript e css, peguei como base o vídeo do **Mayk Brito** na comunidade da **Rocketseat**, caso queira acessar o vídeo basta clicar **[aqui](https://www.youtube.com/watch?v=BvhYm0BOLvA)**. O resultado está logo abaixo.
+
 ## Layout:
 
 <p align="center">
