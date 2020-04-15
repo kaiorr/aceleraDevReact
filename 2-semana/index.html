@@ -10,7 +10,9 @@
 
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/fontawesome.min.css" />
-		<link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/gallery.min.css" />
+    <link rel="stylesheet" href="css/gallery.theme.css" />
 	</head>
 	<body>
 		<header class="topbar">
@@ -118,55 +120,56 @@
         </div>
 
        <section class="feed">
-        <article class="post">
-          <header class="post__header">
-            <div class="user">
-              <a href="#" class="user__thumb">
-                <span class="user__thumb__wrapper">
-                <img src="img/profiles/spider-man/spider-profile.jpg" alt="">
-                </span>
-              </a>
+        
+          <article class="post">
+            <header class="post__header">
+              <div class="user">
+                <a href="#" class="user__thumb">
+                  <span class="user__thumb__wrapper">
+                  <img src="img/profiles/spider-man/spider-profile.jpg" alt="">
+                  </span>
+                </a>
 
-              <a href="#" class="user__name">Peter Parker</a>
+                <a href="#" class="user__name">Peter Parker</a>
+              </div>
+
+              <button class="post__context">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </header>
+
+            <figure class="post__figure">
+              <img src="img/profiles/spider-man/spider-7.jpg" alt="">
+            </figure>
+
+            <nav class="post__controls">
+              <button class="post__control">
+                <i class="far fa-heart"></i>
+              </button>
+
+              <button class="post__control">
+                <i class="far fa-comment"></i>
+              </button>
+
+              <button class="post__control">
+                <i class="far fa-bookmark"></i>
+              </button>
+            </nav>
+
+            <div class="post__status">
+              <div class="user">
+                <a href="#" class="user__thumb">
+                
+                    <img src="img/profiles/iron-man/tony-stark-profile.jpg" alt="">
+                
+                </a>
+
+                <span>
+                curtido por <a href="#">Tony Stark</a> e outras <a href="#">25 pessoas</a>
+              </span>
+              </div>
             </div>
-
-            <button class="post__context">
-              <i class="fas fa-ellipsis-h"></i>
-            </button>
-          </header>
-
-          <figure class="post__figure">
-            <img src="img/profiles/spider-man/spider5.jpg" alt="">
-          </figure>
-
-          <nav class="post__controls">
-            <button class="post__control">
-              <i class="far fa-heart"></i>
-            </button>
-
-            <button class="post__control">
-              <i class="far fa-comment"></i>
-            </button>
-
-            <button class="post__control">
-              <i class="far fa-bookmark"></i>
-            </button>
-          </nav>
-
-          <div class="post__status">
-            <div class="user">
-              <a href="#" class="user__thumb">
-               
-                  <img src="img/profiles/iron-man/tony-stark-profile.jpg" alt="">
-              
-              </a>
-
-              <span>
-              curtido por <a href="#">Tony Stark</a> e outras <a href="#">25 pessoas</a>
-            </span>
-            </div>
-          </div>
-        </article>
+          </article> 
 
         <article class="post">
           <header class="post__header">

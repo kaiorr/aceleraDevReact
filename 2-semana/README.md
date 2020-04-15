@@ -12,7 +12,9 @@ Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5*
 Preview do Meu Projeto:
 </h3>
 
-
+<p align="center">
+  <img alt="Insta Clone" src="img/instaCodenation_grande.gif">
+</p>
 
 ## Tópicos:
 Neste desafio, você vai praticar os seus conhecimentos em: 
