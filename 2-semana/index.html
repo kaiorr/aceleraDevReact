@@ -15,6 +15,11 @@
 	<body>
 		<header class="topbar">
       <div class="container">
+
+        <a href="#" class="topbar__logo topbar__imagem">
+          <img src="img/instagram-glyph.png" alt="Instagram Icon">
+        </a>
+
         <a href="#" class="topbar__logo">
           <img src="img/instagram-logo.svg" alt="Instagram logo">
         </a>
@@ -26,50 +31,92 @@
 		</header>
     
     
-    <div class="container">
-      <section class="stories">
-        <div class="stories__container">
-          <a href="#" class="user__thumb">
-          <span class="user__thumb__wrapper">
-            <img src="img/profiles/yoda/yoda-profile.jpg" alt="">
-          </span>
-          </a>
-
-          <a href="#" class="user__thumb">
-            <span class="user__thumb__wrapper">
-              <img src="img/profiles/iron-man/tony-stark-profile.jpg" alt="">
-            </span>
-            </a>
-
-            <a href="#" class="user__thumb">
-              <span class="user__thumb__wrapper">
-                <img src="img/profiles/spider-man/spider-profile.jpg" alt="">
-              </span>
+    <section class="stories">
+      <div class="container">
+          <div class="stories__container">
+              <a class="stories__item">
+                  <img src="img/profiles/iron-man/tony-stark-profile.jpg"
+                       class="stories__item__img"
+                       alt="Story">
+                  <p class="stories__item__label" style="margin-top: 6px">Seu story</p>
               </a>
+              <a class="stories__item">
+                  <div class="stories__item--active">
+                      <img src="img/profiles/black-panther/black-panther-profile.jpg"
+                           class="stories__item__img"
+                           alt="Tchala">
+                  </div>
+                  <p class="stories__item__label">T'challa</p>
+              </a>
+              <a class="stories__item">
+                <div class="stories__item--active">
+                    <img src="img/profiles/bruce/bruce-profile.jpg"
+                         class="stories__item__img"
+                         alt="Bruce">
+                </div>
+                <p class="stories__item__label">Bruce</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/thor/thor-profile.jpg"
+                       class="stories__item__img"
+                       alt="Thor">
+              </div>
+              <p class="stories__item__label">Thor</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/yoda/yoda-profile.jpg"
+                       class="stories__item__img"
+                       alt="Yoda">
+              </div>
+              <p class="stories__item__label">Yoda</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/gamora/gamora-profile.jpg"
+                       class="stories__item__img"
+                       alt="Gamora">
+              </div>
+              <p class="stories__item__label">Gamora</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/domino/domino-profile.jpg"
+                       class="stories__item__img"
+                       alt="Domino">
+              </div>
+              <p class="stories__item__label">Domino</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/carol/carol-profile.jpg"
+                       class="stories__item__img"
+                       alt="Carol">
+              </div>
+              <p class="stories__item__label">Carol</p>
+            </a>
+            <a class="stories__item">
+              <div class="stories__item--active">
+                  <img src="img/profiles/strange/strange-profile.jpg"
+                       class="stories__item__img"
+                       alt="Stephen Strange">
+              </div>
+              <p class="stories__item__label">Stephen</p>
+            </a>  
 
-          <a href="#" class="user__thumb user__thumb--hasNew">
-          <span class="user__thumb__wrapper">
-            <img src="img/profiles/gamora/gamora-profile.jpg" alt="">
-          </span>
-          </a>
-
-          <a href="#" class="user__thumb">
-          <span class="user__thumb__wrapper">
-            <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="">
-          </span>
-          </a>
-        </div>
-
-
-      </section>
-    </div>
+          </div>
+      </div>
+  </section>
 
     <div class="container">
+
         <!--add switch theme-->
         <div class="toggle">
           <input id="switch" type="checkbox" name="theme">
             <label for="switch">Theme</label>
         </div>
+
        <section class="feed">
         <article class="post">
           <header class="post__header">
@@ -109,9 +156,9 @@
           <div class="post__status">
             <div class="user">
               <a href="#" class="user__thumb">
-                <span class="user__thumb__wrapper">
+               
                   <img src="img/profiles/iron-man/tony-stark-profile.jpg" alt="">
-                </span>
+              
               </a>
 
               <span>
@@ -173,7 +220,107 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/yoda/yoda-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                <img src="img/profiles/strange/strange-profile.jpg" alt="">
+                </span>
+              </a>
+
+              <a href="#" class="user__name">Stephen</a>
+            </div>
+
+            <button class="post__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+
+          <figure class="post__figure">
+            <img src="img/profiles/strange/strange-1.png" alt="">
+          </figure>
+
+          <nav class="post__controls">
+            <button class="post__control">
+              <i class="far fa-heart"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-comment"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+
+          <div class="post__status">
+            <div class="user">
+              <a href="#" class="user__thumb">
+               
+                  <img src="img/profiles/carol/carol-profile.jpg" alt="">
+              
+              </a>
+
+              <span>
+              curtido por <a href="#">Carol</a> e outras <a href="#">3 pessoas</a>
+            </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <header class="post__header">
+            <div class="user">
+              <a href="#" class="user__thumb">
+                <span class="user__thumb__wrapper">
+                <img src="img/profiles/thor/thor-profile.jpg" alt="">
+                </span>
+              </a>
+
+              <a href="#" class="user__name">Thor</a>
+            </div>
+
+            <button class="post__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+
+          <figure class="post__figure">
+            <img src="img/profiles/thor/thor-2.jpg" alt="">
+          </figure>
+
+          <nav class="post__controls">
+            <button class="post__control">
+              <i class="far fa-heart"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-comment"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+
+          <div class="post__status">
+            <div class="user">
+              <a href="#" class="user__thumb">
+                <img src="img/profiles/domino/domino-profile.jpg" alt="">
+              </a>
+
+              <span>
+              curtido por <a href="#">Domino</a> e outras <a href="#">49 pessoas</a>
+            </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <header class="post__header">
+            <div class="user">
+              <a href="#" class="user__thumb">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/yoda/yoda-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">Mestre Yoda</a>
@@ -209,7 +356,7 @@
               </a>
 
               <span>
-              curtido por <a href="#">Domino</a> e outras <a href="#">7 pessoas</a>
+              curtido por <a href="#">Domino</a> e outras <a href="#">125 pessoas</a>
             </span>
             </div>
           </div>
@@ -219,7 +366,9 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/gamora/gamora-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/gamora/gamora-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">Gamora Zen</a>
@@ -265,7 +414,9 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">T'Challa</a>
@@ -311,7 +462,9 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/carol/carol-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/carol/carol-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">Carol Danvers</a>
@@ -357,7 +510,9 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/domino/domino-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/domino/domino-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">Domino</a>
@@ -403,7 +558,9 @@
           <header class="post__header">
             <div class="user">
               <a href="#" class="user__thumb">
-                <img src="img/profiles/bruce/bruce-profile.jpg" alt="">
+                <span class="user__thumb__wrapper">
+                  <img src="img/profiles/bruce/bruce-profile.jpg" alt="">
+                </span>
               </a>
 
               <a href="#" class="user__name">Bruce Wayne</a>

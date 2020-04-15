@@ -17,10 +17,10 @@ const initialColors = {
 }
 
 const darkMode = {
-    bg: "#404040",
+    bg: "#464650",
     colorLeft: "#5c5c5c",
     colorRight: "#242424",
-    colorHeadings: "#919191",
+    colorHeadings: "#f0f0f0",
     gradientLeft: "#ff8a00",
     gradientRight: "#e52e71"
 }

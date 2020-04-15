@@ -8,6 +8,12 @@ Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5*
 > **Preview:**
 > [Instagram Codenation](https://aceleradev-react.netlify.com/aula-02/public)
 
+<h2 align="center" color="#424040">
+Preview do Meu Projeto:
+</h3>
+
+
+
 ## Tópicos:
 Neste desafio, você vai praticar os seus conhecimentos em: 
 - **HTML5**;
