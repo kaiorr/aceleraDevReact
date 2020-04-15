@@ -13,7 +13,7 @@ Preview do Meu Projeto:
 </h3>
 
 <p align="center">
-  <img alt="Insta Clone" src="img/instaCodenation_grande.gif">
+  <img src="img/instaCodenation.gif" alt="InstaCodenation">
 </p>
 
 ## Tópicos:
