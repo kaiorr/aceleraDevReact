@@ -7,6 +7,10 @@
 </h3>
 
 <p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kaiorr/aceleraDevReact?style=plastic">
+
+  <img alt="Security Headers" src="https://img.shields.io/security-headers?url=https%3A%2F%2Fgithub.com%2Fkaiorr%2FaceleraDevReact">
+  
   <img alt="GitHub" src="https://img.shields.io/github/license/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
 
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/kaiorr/aceleraDevReact?color=7800ff&style=plastic">
