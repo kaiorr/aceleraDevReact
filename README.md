@@ -65,7 +65,7 @@ O curso é dividido em 10 módulos e cada módulo possui uma pasta neste reposí
 
 ## :mega: Projeto Final
 
-**:dart: Para verificar o que é necessário para realização do projeto, basta acessar o diretório do mesmo clicando [aqui](https://github.com/codenation-dev/AceleraDev-React-Online/tree/master/projetoFinal)**
+**:dart: Para verificar o que é necessário para realização do projeto, basta acessar o diretório do mesmo clicando [aqui](https://github.com/kaiorr/aceleraDevReact/tree/master/desafio-final)**
 
 
 ## :clap: Empresas Apoiadoras:
