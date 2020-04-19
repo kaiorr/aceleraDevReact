@@ -81,7 +81,7 @@ O curso é dividido em 10 módulos e cada módulo possui uma pasta neste reposí
 - 🤝 **[Senior](https://www.senior.com.br/carreiras)**
 - 🤝 **[Voyager](https://www.voyagerportal.com/company/)**
 
-## :memo: Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://raw.githubusercontent.com/kaiorr/aceleraDevReact/master/LICENSE) para mais detalhes.
 

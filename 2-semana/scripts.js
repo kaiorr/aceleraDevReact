@@ -9,20 +9,21 @@ const getStyle = (element, style) =>
 
 const initialColors = {
     bg: getStyle(html, "--bg"),
-    colorLeft: getStyle(html, "--color-left"),
-    colorRight: getStyle(html, "--color-right"),
+    bgHeader: getStyle(html, "--bg-header"),
+    colorText: getStyle(html, "--color-text"),
     colorHeadings: getStyle(html, "--color-headings"),
     gradientLeft: getStyle(html, "--gradient-left"),
     gradientRight: getStyle(html, "--gradient-right")
+    
 }
 
 const darkMode = {
-    bg: "#464650",
-    colorLeft: "#5c5c5c",
-    colorRight: "#242424",
+    bg: "#000",
+    bgHeader: "#1a1a1a",
+    colorText: "#fafafa",
     colorHeadings: "#f0f0f0",
     gradientLeft: "#ff8a00",
-    gradientRight: "#e52e71"
+    gradientRight: "#e52e71" 
 }
 
 const transformKey = key => 
