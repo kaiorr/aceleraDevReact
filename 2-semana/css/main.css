@@ -14,7 +14,8 @@ html {
 	--bg-header:#f7f7f7;
 	--color-headings: #000;
 	--gradientLeft:#898989;
-	--gradientRight:#fff;  
+	--gradientRight:#fff;
+	--box-shadow: rgba(0, 0, 0, .1)  
 }
 
 body {
@@ -42,9 +43,9 @@ button {
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 728px) {
+@media screen and (min-width: 100%) {
 	.container {
-		width: 728px;
+		width: 100%;
 	}
 }
 
@@ -134,7 +135,7 @@ figure.icon__change {
 	width: 100%;
 	padding: 10px 0;
 	margin-bottom: 10px;
-	border-bottom: 2px solid var(--color-headings);
+	border-bottom: 2px solid var(--box-shadow);
 }
 
 .stories__item {
