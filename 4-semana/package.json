@@ -1,0 +1,16 @@
+{
+  "name": "react-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest test/index.test.js",
+    "test:watch": "jest test/index.test.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0"
+  }
+}
