@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { ReactComponent as LogoSvg } from "./assets/img/logo.svg";
-
 import './App.scss';
 
 class App extends React.Component {
@@ -60,6 +58,12 @@ class App extends React.Component {
               <span className="contact__data">Departamento</span>
             </article>
           </section>
+        </div>
+        <div className="footer">
+          <span> Feito com <span className="heart">❤️️</span> por  <strong>
+              <a href="https://github.com/kaiorr" target="_blank">Kaio Ribeiro</a>
+            </strong>
+          </span>
         </div>
       </React.Fragment>
     )
