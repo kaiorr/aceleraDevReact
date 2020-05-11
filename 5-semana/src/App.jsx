@@ -11,7 +11,9 @@ class App extends React.Component {
             <a href="/" className="topbar__logo">
               <LogoSvg alt="Logo Instagram" />
             </a>
-          </div>
+            </div>
+          
+          
         </header>
 
         <div className="container">
