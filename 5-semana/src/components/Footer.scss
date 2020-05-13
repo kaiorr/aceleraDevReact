@@ -22,3 +22,11 @@
   font-weight: bold;
   color: #25366f
 }
+
+.footer strong a:hover {
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  font-size: 1.8rem;
+  color: #b3bbff;
+}
