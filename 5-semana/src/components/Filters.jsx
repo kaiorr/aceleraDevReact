@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button'
+import './Filters.scss';
 class Filters extends React.Component {
 
 	constructor(props) {
