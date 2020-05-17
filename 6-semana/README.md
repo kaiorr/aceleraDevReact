@@ -51,6 +51,18 @@ Neste desafio você vai praticar os seus conhecimentos em:
 
 ![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-14/screenshot.png)
 
+## 🤔 Como Contribuir
 
+**Encare essa contribuição como uma forma de consolidar seu conhecimento sobre git e gitbub, todo e qualquer feedback será bem vindo.**
+
+> -  Faça fork do repositório
+> -  Crie uma nova branch **git checkout -b my feature**
+> -  Faça um commit **git commit -m "feat: My new feature"**
+> -  Envie sua branch para seu repositório forkado **git push origin my feature**
+> -  Crie um novo Pull Request informando sobre suas alterações e aguarde para obter reposta sobre o mesmo.
+
+----
+
+Feito com :heart: por **Kaio Ribeiro** :call_me_hand: [Professional Network](https://www.linkedin.com/in/kaio-ribeiro-310123150/)
 
 
