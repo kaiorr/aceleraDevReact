@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-
+import Lottie from 'react-lottie';
 import Contact from '../components/Contact';
 import Contacts from '../components/Contacts';
 import Filters from '../components/Filters';

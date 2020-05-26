@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Topbar from './components/Topbar';
 import Filters from './components/Filters';
 import Contacts from './components/Contacts';
@@ -14,48 +14,59 @@ import './App.scss';
 const url = 'https://5e82ac6c78337f00160ae496.mockapi.io/api/v1/contacts';
 var results = [];
 
-class App extends React.Component {
+export default function App() {
 
-	constructor(props) {
-		super(props);
-		this.state = {
-			contacts: results,
-			loading: true,
-			field: null,
-			direction: null
-		}
-	}
+	const [contacts, setContacts] = useState([])
+	const [loading, setLoading] = useState(true)
+	const [field, setField] = useState(null)
+	const [direction, setDirection] = useState(null)
 
-	componentDidMount() {
+	useEffect(() => {
+		fetch(url)
+		.then(response => response.json())
+		.then(data => setContacts(data))
+	})
+
+	// constructor(props) {
+	// 	super(props);
+	// 	this.state = {
+	// 		contacts: results,
+	// 		loading: true,
+	// 		field: null,
+	// 		direction: null
+	// 	}
+	// }
+
+	// componentDidMount() {
 		
-		const that = this;
+	// 	const that = this;
 
-		fetch(url, {method: 'get'})
-		.then(function(response) {
-			return response.json()
-		})
-		.then(function(data) {
-			results = data;
-			that.setState({
-				contacts: results,
-				loading: false
-			});
-		})
-		.catch(function(err) { 
-			console.error('Failed retrieving information', err);
-		});
-	}
+	// 	fetch(url, {method: 'get'})
+	// 	.then(function(response) {
+	// 		return response.json()
+	// 	})
+	// 	.then(function(data) {
+	// 		results = data;
+	// 		that.setState({
+	// 			contacts: results,
+	// 			loading: false
+	// 		});
+	// 	})
+	// 	.catch(function(err) { 
+	// 		console.error('Failed retrieving information', err);
+	// 	});
+	// }
   
-	searchByName(value) {
+	searchByName = (value) => {
 		const filteredResults = SearchByName(results, value);
-		const orderedResults = OrderByField(filteredResults, this.state.field, this.state.direction);
-		this.setState({
+		const orderedResults = OrderByField(filteredResults, field, direction);
+		setState({
 			contacts: orderedResults
 		});
 	}
 
-	orderByField(event, field, direction) {
-		const orderedResults = OrderByField(this.state.contacts, field, direction);
+	orderByField = (event, field, direction) => {
+		const orderedResults = OrderByField(contacts, field, direction);
 		this.setState({
 			contacts: orderedResults,
 			field: field,
@@ -63,20 +74,20 @@ class App extends React.Component {
 		});
 	}
 
-	render() {
+
 		return (
 		<React.Fragment>
 			
 			<Topbar />
 			<Filters
-				HandleClick={(event, field, direction) => this.orderByField(event, field, direction)}
-				HandleChange={value => this.searchByName(value)} 
+				HandleClick={(event, field, direction) => orderByField(event, field, direction)}
+				HandleChange={value => searchByName(value)} 
 			/>
-			<Contacts state={this.state}>
+			<Contacts>
 
-				{this.state.loading ? <Loading /> : null}
+				{loading ? <Loading /> : null}
 
-				{this.state.contacts.map(contact => {
+				{contacts.map(contact => {
 					return (
 						<Contact key={contact.id} data={contact} />
 					);
@@ -88,8 +99,4 @@ class App extends React.Component {
 
 		</React.Fragment>
 		)
-	}
-
 }
-
-export default App;
