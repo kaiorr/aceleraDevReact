@@ -11,7 +11,7 @@ const FeedRoute = () => {
   const [users, setUsers] = useState([])
   const [posts, setPosts] = useState([])
   const [stories, setStories] = useState([])
-  const [usersFind, setUsersFind] = useState([])
+  const [usersFind, setUsersFind] = useState(0)
 
   const getUserPostId = (postUserId) =>
     users.find((user) => postUserId === user.id)

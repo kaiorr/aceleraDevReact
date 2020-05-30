@@ -8,7 +8,11 @@ import Routes from '../../routes';
 import './App.scss';
 
 const App = () => (
-  <div>
+  <div data-testid="app">
+    <BrowserRouter>
+      <Topbar />
+      <Routes />
+    </BrowserRouter>
   </div>
 );
 
